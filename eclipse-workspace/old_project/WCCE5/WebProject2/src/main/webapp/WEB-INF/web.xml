@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <welcome-file-list>
+  
+  <welcome-file>home1.html</welcome-file>  
+  
+  </welcome-file-list>
+  
+  
+  <servlet>
+  	<servlet-name>same_name</servlet-name>
+  	<servlet-class>webapp.add</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  	<servlet-name>same_name</servlet-name>  	
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>pqr</servlet-name>
+  	<servlet-class>webapp.first</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  	<servlet-name>pqr</servlet-name>  	
+  	<url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>tuv</servlet-name>
+  	<servlet-class>webapp.second</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  	<servlet-name>tuv</servlet-name>  	
+  	<url-pattern>/second</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+  		<servlet-name>same</servlet-name>
+  		<servlet-class>webapp.register</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  		<servlet-name>same</servlet-name>
+  		<url-pattern>/register</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  	<servlet-name>temp</servlet-name>
+  	<servlet-class>webapp.register1</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+  	<servlet-name>temp</servlet-name>
+  	<url-pattern>/register1</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>abhi</servlet-name>
+  	<servlet-class>webapp.success_register1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abhi</servlet-name>
+  	<url-pattern>/success_register1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>cal</servlet-name>
+  	<servlet-class>webapp.calculation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cal</servlet-name>
+  	<url-pattern>/calculation</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+  	<servlet-name>temp1</servlet-name>
+  	<servlet-class>webapp.temp1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>temp1</servlet-name>
+  	<url-pattern>/temp1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>temp2</servlet-name>
+  	<servlet-class>webapp.temp2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>temp2</servlet-name>
+  	<url-pattern>/temp2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>students</servlet-name>
+  	<servlet-class>webapp.students1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>students</servlet-name>
+  	<url-pattern>/students1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>filter1</servlet-name>
+  	<servlet-class>webapp.my_filter</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  	<servlet-name>filter1</servlet-name>
+  <url-pattern>/my_filter</url-pattern>
+  </servlet-mapping>  
+  <servlet>
+  	<servlet-name>filter2</servlet-name>
+  	<servlet-class>webapp.my_filter2</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  	<servlet-name>filter2</servlet-name>
+  <url-pattern>/my_filter2</url-pattern>
+  </servlet-mapping> 
+  <filter>
+  	<filter-name>my_filter</filter-name>
+  	<filter-class>webapp.my_filter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>my_filter</filter-name>
+  	<url-pattern>/my_filter2</url-pattern>
+  </filter-mapping>
+  
+  
+  <filter>
+  	<filter-name>teacher_auth</filter-name>
+  	<filter-class>webapp.teacher_auth_filter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>teacher_auth</filter-name>
+  	<url-pattern>/teacher.jsp</url-pattern>
+  	<url-pattern>/teacher_details.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  <session-config>
+  	<session-timeout>
+  		10
+  	</session-timeout>
+  </session-config>
+  
+  
+</web-app>

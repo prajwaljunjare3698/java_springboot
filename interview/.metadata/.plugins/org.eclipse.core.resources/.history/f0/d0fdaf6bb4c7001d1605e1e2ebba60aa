@@ -1,0 +1,14 @@
+package com.programs;
+
+import java.time.LocalDate;
+
+class BookTicket{
+	private int no;
+	private String destination;
+	private LocalDate date;
+	private int seatNo;
+	
+}
+public class TrainSystem {
+
+}

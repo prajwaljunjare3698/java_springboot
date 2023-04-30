@@ -1,0 +1,7 @@
+package com.bithub;
+
+public class Buffer {
+	public static void main(String[] args) {
+		StringBuffer s1 = new StringBuffer("hi");
+	}
+}

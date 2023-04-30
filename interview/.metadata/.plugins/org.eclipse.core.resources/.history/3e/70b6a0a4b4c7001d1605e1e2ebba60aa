@@ -1,0 +1,25 @@
+package com.programs;
+
+import java.time.LocalDate;
+
+class BookTicket{
+	private int no;
+	private String destination;
+	private LocalDate date;
+	private int seatNo;
+	public BookTicket(int no, String destination, LocalDate date, int seatNo) {
+		super();
+		this.no = no;
+		this.destination = destination;
+		this.date = date;
+		this.seatNo = seatNo;
+	}
+	@Override
+	public String toString() {
+		return "BookTicket [no=" + no + ", destination=" + destination + ", date=" + date + ", seatNo=" + seatNo + "]";
+	}
+}
+public P
+public class TrainSystem {
+
+}

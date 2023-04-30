@@ -1,0 +1,13 @@
+package com.bithub;
+
+public class IncremntNo {
+	public static void main(String[] args) {
+		int no = 1234;
+		String s = s+no;
+		int rev = 0;
+		while(no>0) {
+			int temp = no/10;
+			no = no/10;
+		}
+	}
+}

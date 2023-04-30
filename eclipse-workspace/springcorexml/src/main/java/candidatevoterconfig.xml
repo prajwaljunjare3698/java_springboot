@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.jspider.springcorexml.manytoone.bean.CandidateBean" name="candidate">
+		<property name="id" value="1"/>
+		<property name="name" value="tope_saheb"/>
+	</bean>
+	
+	<bean class="com.jspider.springcorexml.manytoone.bean.VoterBean" name="voter1">
+		<property name="id" value="1"/>
+		<property name="name" value="voter1"/>
+		<property name="favCandidate" ref="candidate"/>
+	</bean>
+	<bean class="com.jspider.springcorexml.manytoone.bean.VoterBean" name="voter2">
+		<property name="id" value="1"/>
+		<property name="name" value="voter2"/>
+		<property name="favCandidate" ref="candidate"/>
+	</bean>
+	<bean class="com.jspider.springcorexml.manytoone.bean.VoterBean" name="voter3">
+		<property name="id" value="1"/>
+		<property name="name" value="voter3"/>
+		<property name="favCandidate" ref="candidate"/>
+	</bean>
+
+</beans>

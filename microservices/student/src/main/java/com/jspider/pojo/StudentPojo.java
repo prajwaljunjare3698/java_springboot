@@ -1,0 +1,12 @@
+package com.jspider.pojo;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class StudentPojo {
+	@Id
+	private int id;
+	private String name;
+	private String rollno;
+}

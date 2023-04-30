@@ -1,0 +1,342 @@
+
+59) what is abstraction, encapsulation, polymorphism, inheritance?
+60) how can we acheive the abstraction? (interface and by abstract class)
+61) how can we acheive the encapsulation? ( by private keyword)
+62) what is "is-a" and "has-a" relationship? 
+63) how to acheive "is-a" relationship? (By inheritance)
+64) how to acheive "has-a" relationship? (by aggregation)
+65) what is collecction class?
+66) what are the classes in collection? (utility method, sort, reverse etc)
+67) what is difference b/w hashmap and arraylist?
+68) you have arraylist, vector and linkedlist, which is better?
+69) what is iterator?
+70) what is list iterator?
+71) what is the difference between iterator and listIterator?
+72) what is enumeration?
+73) You now any class in  java which is final? (String class)
+74) what is the difference between String and string buffer? (main difference is, String is mutable while String buffer is nonMutible)
+75) how to concatenate two string? ( by using + and concate method)
+76) how to concaenate the string buffer?	 ( by using the  append method)
+77) what is garbage collection? (used to remove un-used object from the memory)
+78) what method is used for garbage collectionn? (System.gc)
+79) which method we generally override in java (Abstract method)
+80) what is toString method in java? ( it is object representation in form of string) 
+81) what is clonning in java?
+82) what is hashcode method in java? (unique representation of object)
+83) what is difference between equal method of string class , and object class?
+84) which is better string or string buffer?
+85) what is string builder?
+86) what is the difference between spring and spring boot?
+87) which come first spring or spring boot ? (spring)
+88) what is JSP Servelet?
+89) what is difference between servelet and JSP?
+90) what is DDL and DML?
+91) DDL method (DELETE, ALTER, DROP)
+92) DML methods (CREATE, UPDATE, INSERT PUT )
+93) what is the difference between DROP and Delete?
+94) how to sorting in SQL (By using ORDER BY)
+95) what is having in SQL?
+96) what is GROUP BY?
+97) how to create table (CREATE TABLE test(id INTEGER, name VARCHAR)
+98) what is the difference between varchar and char? (char is for fixed size, while varchar is for dynamic size)
+99) what is syntax of update query? (UPDATE text  SET name="feezan"  WHERE name= "khan")
+100) can we fetch data of two table in single way? ( yes by using the joins)
+101) what is turing machine?
+102) List and Set are interface or class? (interface)
+103) what is the super interface of list and set? (Collection)
+104) what is the super class of list? (Abstract list)
+105) what is super class of hastSet? (Abstract Set)
+106) what is Stack and Queue?
+107) what is dictionary?
+108) Map is interface or class? (interface)   
+109) what is key set method?
+110) how to iterate hashmap?
+111) if there is array of 10 elements, find out the largest element?
+112) how to find the armstrong number?
+113) what is the difference between html and css?
+114) can we write database board in html? (no)
+115) why JDBC used?
+116) Any Technology to overcome the jdbc? (hibernate) 
+117) what is the difference between hibernate and jdbc? 
+118) what is the difference between statement and prepare Statement?
+119) wheter the statement and prepare statement is interface or class? (interfaces)
+120) what is the use of resultset in jdbc?
+121) in Case of interfaces mutiple inheritances are allowed why
+
+
+
+Different questions 
+
+Q1.Difference between Authentication and Authorization
+	1.Authentication is a process of identifying the user to provide acces to the system.
+	1.Authorization gives permission to access the resource.
+	2.In this user or client are verified.
+	2.In this it is verified if users are allowed through the defined policies and rules.
+	3.It is usually performed before the authorization.
+	3.It will done once the user successfully  authenticated.
+	4.Example: Entering Login details is necessary for the employees to authenticate themselves to access the organizational emails or software.
+	4.Example: After employees successfully authenticate themselves, they can access and work on certain functions only as per their roles and profiles.
+	5.Authenticationm is partially change by user.
+	6.Authorization cannot changed by user.
+	7.Login details, usernames, passwords, OTPs required.
+	7.Checks the security level and privilege of the user, thus determining what the user can or cannot have access to.
+
+Q2.How to devlop web application by spring boot?
+	1.By using spring intilizer we can create a project or application in this 
+		1.we can select the maven or gradle project.
+		2.select the language.
+		3.spring boot version 2.7.0 by default selected
+		4.group id and artifavt id 
+		5. Add the dependencies
+		genrate it by just click in junrate button.
+	2.Import into out sts.
+	3.Application.properties file connect the database.
+	4.create controller,entity,services,repository.
+
+Q3.IOC ->
+	when we give all the control of object creation to spring and spring inject the object at dynamically run time is called inversion of control.
+
+Q4.IOC container:
+	IOC Container is responsible for 1.create the object.2.hold the object in memory.3.The inject the object into another object.
+	IOC container get information from xml file and work accordingly.
+	Two types of IOC container
+		1.BeanFactory
+		2.ApplicationContext
+			Both the interfaces act as a ioc container.ApplicationContext is build on top of the beanfactory interface.it add some extra functionality than beanfactory 
+			simple integration with spring AOP , message resource handling , event propagation etc.
+
+Q5.Method to break the single ton design pattern ?
+	1.By clonnable interface-> By implementing singleton class to clonable interface and invoking the clone() method on its single instance it can create duplicate obbject.
+	2.By desrilization.
+	3.Reflection.
+
+Q6.Which algorithm followed by Garbage collector?
+	mark and sweep alogorithm followed by the garbage collector.
+
+Q7.Features of java 7?
+	1.Try with multiple catch.
+	2.Try with resource block.
+	3.swith statement allows string variable.
+
+Q8.Serialization and Deserialization in Java
+	Serialization is mechanism in writing the state of object into byte stream.It is mainly used in hybernate, jpa technology.The reverse opereation of serialization is deserialization
+	where byte stream is converted into object.serialization and desrialization process is platform independent it means we can serialize the object and deserialize in othe platform.
+	For serializing the object, we call the writeObject() method and for deserialization we call the readObject() method 
+
+	Advantage of Serialization is we can travel the object state on the network.
+	Serializable is a marker interface (has no data member and method). It is used to "mark" Java classes so that the objects of these classes may get a certain capability. The Cloneable
+	and Remote are also marker interfaces.The Serializable interface must be implemented by the class whose object needs to be persisted.The String class and all the wrapper classes
+	implement the java.io.Serializable interface by default.
+
+Q9.which is marker interface in java ?
+	when any class implement marker interface then this interface gives msg to jvm to add special features in that class.
+	1.Clonnable interface
+		Cleanable interface in Java is also a marker interface that belong to java.lang package. It generates replica (copy) of an object with different name. We can implement 
+		the interface in the class of which class object to be cloned. It indicates the clone() method of the Object class. If we do not implement the Cloneable interface in 
+		the class and invokes the clone() method, it throws the ClassNotSupportedException.
+	2.Serializable interface
+	3.Remote interface
+		Remote interface is a marker interface that belong to java.rmi package. It marks an object as remote that can be accessed from another machine (host). We must implement 
+		the Remote interface if we want to make an object as remote. It identifies the interfaces whose methods can be invoked from a non-local JVM. Any remote object must 
+		implement the interface directly or indirectly.
+	4.Random Access
+
+Q10.Features of java 8?
+	1.Functinal interface
+	2.Lambda Expression
+	3.default method and static method in java. 
+
+Q11.What is spring bean lifecycle?
+	When bean is instantiated, it may be required to perform some intialization to get it into usable state.similary when bean is no longer required and it is removed from container.
+	some cleanup may be required.
+
+Q13.Which command is used to run the spring boot application?
+	The alternate to run the spring boot without building the JAR file is to run the command mvnspring-boot:run.
+   
+Q14.What is differnce between hashmap and linkedhashmap?
+	linkedhashmap is child class of hashmap .they having same constructor and method but following differnce:
+	1.The underline data structure of hashmap is hashtable.
+	1.1.The underline data structure of linkedhashmap is hashtable + linked list.
+	2.In hashmap insertion order is not preseeved. the object are stored by using hashcode of keys.
+	2.In linkedlist insertion order is preserved.
+	3.Hashmap was introduced in 1.2 version.
+	3.LinkedHashMap was introduced in 1.4 version.
+
+Q15.What is ClassCastException ?
+	ClassCastException is runtime exception in java.It arise when we try to improper cast a class from one type to another type.
+
+Q16.What is Response Entity in spring boot ?
+	It represent the hole http response: stastus code , headers ,body.If we want to use it we have to return it from endpoint.
+
+Q17.What is endpoint in spring boot ?
+	The endpoint is spring boot actuator.It include the no of additionbal features that help the monitoring and managing the spring boot application.If we want to get production ready
+	features then we shoud use spring boot actuator.
+	Main features of spring boot actuator :
+	1.Endpoint : spring boot provide no of buid in end point. we are also create our own end point.Most of application choose http where id of endponit along with /actuator is mapped
+		to the url.
+		for eg : /actuator/health provide basic health information of an application. 
+	2.Metrices
+	3.Auditing
+
+Q18.Spring profile?
+	Profile is simply termed as different envirement that every application comprises.Each envirement has different requirement.for this perpose DEV OR QA are profiles used.Devloper uses 
+	DEV and for testing purpose it uses QA .
+
+Q19.Spring looger?
+	Java provides looging API that was introduced in java 1.4  version. Java logging is an imp features that helps devloper to find out the errors.
+	When an application genrate a loggine call the looger record the event in logRecord.After that it send to the corresponding handlers.
+
+	Need of Logger?
+	1.It provide complete tracing information of the application.
+	2.It record the critical failure if there is failure accured in the application.
+
+	Logging dependency is managed by default.We cannot be changed the dependency.
+
+Q20.What is Functional interface?
+	The interface contains only one abstract method and any no of default and static method is called functional interface.It has annotation of @FunctionalInterface but it
+	is not mandataory.
+	1.Runnable
+	2.Predicate
+	3.Supplier
+	4.ToLongFunction
+
+Q21.Difference between soap and rest?
+
+	1.Soap is the protocol.
+	1.Rest is architectural style.
+
+	2.soap stand for simple object access protocol.
+	2.rest stand for representational state transfer.
+
+	3.soap can not use rest because it is protocol.
+	3.rest use soap web service becz it is concept and rest uses any protocol like http,soap.
+
+	4.soap uses service interface to expose business logic.
+	4.rest uses uri to expose business logic.
+
+	5.soap defines standerd to be strictly followed.
+	5.rest does not defined standard as soap.
+
+	6.soap defines its own security.
+	6.restfull web service inherit security.
+
+	7.soap permit xml data format only.
+	7.rest permit html,json,xml.
+
+	8.soap is less prefered than rest.
+	8.rest is more prefered than soap.
+
+Q22.What is hashing?
+	Hashing is an algorithm that calculates a fixed-size bit string value from a file. A file basically contains blocks of data. Hashing transforms this data into a far shorter
+	fixed-length value or key which represents the original string.A good hashing algorithm would exhibit a property called the avalanche effect, where the resulting hash output 
+	would change significantly or entirely even when a single bit or byte of data within a file is changed.A hash is usually a hexadecimal string of several characters. Hashing 
+	is also a unidirectional process so you can never work backwards to get back the original data.
+	
+	Brenifits of hashing?
+	One main use of hashing is to compare two files for equality. Without opening two document files to compare them word-for-word, the calculated hash values of these files
+	will allow the owner to know immediately if they are different.
+
+Q23.Scope of beans?
+	1.Single Ton design pattern ->It is default scope of beans.This scopes the bean defination to single instance per spring ioc container.
+	2.Prototype -> This scope a sing bean defination any no of object instance.
+	3.Request -> This scope a bean defination to an HTTP request.
+	4.Session -> This scope a baen defination to http session.
+	5.global-session -> This scope a baen defination to http global session.
+
+Q24.Difference between primary key and unique key?
+	1.There is only one primary key in table.
+	1.There is multiple unique key in the table.
+	2.Primary key cannot accept null vaule.
+	2.Unique key accept only one null value.
+	3.Primary key creates clustured index.
+	3.Unique key creates non clustured index.
+
+Q25.Types of API ?
+	1.Public API-> 
+		It is completly public acces api with no restriction on who can use them.An example is Facebook.
+	2.Partner API ->
+		It is not open to public. It is used between business and client only.Acces is restricted to use of certain licence.
+	3.Private API -> 
+		It is used only within the company by employee.
+
+Q26.Object class :
+	Object class is parent class of all the class in java.In other words it is topmost class in java.
+	Methods of object class : 
+	1.hashCode() -> return the hashcode of the object.
+	2.equals() -> Compare the containt of the string.and return boolean value.
+	3.clone() -> create and return the exact copy of the object.
+	4.toString() -> return the string representation of object.
+	5.notify();
+	6.notifyAll();
+	7.wait();
+
+Q27.What is jvm,jdk, jre?
+Q28.OOPS Concept
+Q29.Constructor calling chain
+Q30.Difference between final, finally , finalize method
+Q31.Use of static keyword
+Q32.Why string is immutable?
+Q33.Differnce between StringBuffer and StringBuilder
+Q34.Differnce between String and stringBuffer
+Q35.What is differnce between Array and Collection
+Q36.What is exception handling? How to handle the exception?
+Q37.What is difference between checked and uncheked exception?
+Q38.How to create a custom type exception?
+Q39.explain the hierarchy of exception?
+Q40.Try with resource block?
+Q41.Basic concept related to finally block?
+Q42.What is collection?
+Q43.hierarchy of collection?
+Q44.When we use List,Set?
+Q45.When we use ArrayList, LinkedList?
+Q46.Differnce between hashset and linkedhashset?
+Q45.Internal working of hashset?
+Q46.what is serializable, clonable and random access interface?
+Q47.Difference between set and list?
+Q48.When we use hashmap?
+Q49.Internal working of hashmap?
+Q50.Difference between hashmap and likedhashmap?
+Q51.How to create customised arraylist?
+Q52.How to create immutable class?
+Q53.How to create sington class?
+Q54.
+
+
+
+##program##
+1.palindrome?
+2.reverse a string?
+3.reverse a string by recursion?
+4.accurance of character in string?
+5.accurance of words in sentense?
+6.Array
+7.string	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

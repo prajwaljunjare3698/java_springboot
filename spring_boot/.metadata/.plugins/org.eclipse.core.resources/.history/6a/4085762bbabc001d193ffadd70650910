@@ -1,0 +1,5 @@
+package com.jspider.respository;
+
+public interface RepositoryInter {
+
+}

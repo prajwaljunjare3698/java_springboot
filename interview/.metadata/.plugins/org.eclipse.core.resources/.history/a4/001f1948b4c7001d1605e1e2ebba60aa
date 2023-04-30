@@ -1,0 +1,8 @@
+package com.programs;
+class BookTicket{
+	private int no;
+	private S
+}
+public class TrainSystem {
+
+}

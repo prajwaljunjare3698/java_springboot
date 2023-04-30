@@ -1,0 +1,15 @@
+This is the temp file which is created with the help of file handling in advance java
+file handling operations are create file
+read file
+write file
+and delete the file
+these are the operations performed on file in java program
+
+
+**important file operations are****
+		
+		1)create file
+		2)write file
+		3)read file
+		4)get file
+		5)delete file

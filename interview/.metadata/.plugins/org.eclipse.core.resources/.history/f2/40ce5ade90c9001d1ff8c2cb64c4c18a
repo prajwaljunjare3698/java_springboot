@@ -1,0 +1,10 @@
+package com.programs;
+
+public class Palindrome {
+	public static void main(String[] args) {
+		int no = 1234;
+		int no2 = no;
+		
+		int 
+	}
+}

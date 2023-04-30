@@ -1,0 +1,8 @@
+package com.bithub;
+
+public class Multiple5 {
+	public static void main(String[] args) {
+		int arr[] = {3,4,6,3,5,15,423,85,90,21,35,76};
+		
+	}
+}

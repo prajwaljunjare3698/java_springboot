@@ -1,0 +1,8 @@
+package com.jspider.service;
+
+import jakarta.websocket.server.ServerEndpoint;
+
+@Serv
+public class StudentServiceImpl {
+
+}

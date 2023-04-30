@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#box{
+		height: 400px;
+		width: 400px;
+		border: 1px solid;
+		margin: auto;
+		margin-top: 80px;
+		background-color: greenyellow;
+		padding: 10px;
+		font-size: 20px;
+	}
+	h1{
+		margin-left: 70px;
+	}
+	.ap{
+		margin-left: 40px;
+	}
+	#pass{
+		margin-left: 11px;
+	}
+	#gmail{
+		margin-left: 11px;
+	}
+	#gender{
+		padding-right: 60px;
+	}
+	select{
+		height: 22px;
+		width: 100px;	
+		margin-left: 41px;
+	}
+	
+</style>
+</head>
+<body>
+	<div id="box">
+	<h1>Fill the Form</h1>
+		<form action="register1" method="post">
+		
+			<label for="name">Enter Name:</label>
+			<input class="ap" type="text" name="name" id="name"> <br>
+			
+			<label for="pass">Enter Password:</label>
+			<input class="ap" type="password" name="pass" id="pass"> <br>
+			
+			<label for="email">Enter Email:</label>
+			<input class="ap" type="email" name="email" id="email"> <br>
+			
+			<label id="gender" for="gender">Gender:</label>
+			
+			<input  type="radio" name="gender" id="male" value="male">
+			<label for="male">Male</label>
+			
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female">Female</label> <br>
+			
+			<label  for="place">Enter Place:</label>
+			<input class="ap" type="text" name="place" id="place"> <br> 	
+			
+			<label for="course">Course:</label>
+			<select name="course">
+				<option selected disabled>Select</option>
+				<option>Java</option>
+				<option>Python</option>
+				<option>WetTech</option>
+				<option>Selenium</option>
+			</select>
+			<br> <br>
+			<input type="checkbox" name="check">accept terms and conditions <br>
+			
+			<input type="submit" name="submit">
+			<input type="reset" name="reset">
+			
+		</form>
+	</div>
+</body>
+</html>

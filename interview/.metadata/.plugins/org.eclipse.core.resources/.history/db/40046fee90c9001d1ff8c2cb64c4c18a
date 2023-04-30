@@ -1,0 +1,14 @@
+package com.programs;
+
+public class Palindrome {
+	public static void main(String[] args) {
+		int no = 1234;
+		int no2 = no;
+		
+		int rev = 0;
+		while(no2>0) {
+			int temp = no2%10;
+			rev = rev*10 + 
+		}
+	}
+}

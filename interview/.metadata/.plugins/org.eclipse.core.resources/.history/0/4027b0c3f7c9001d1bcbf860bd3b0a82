@@ -1,0 +1,13 @@
+package com.bithub;
+
+public class IncremntNo {
+	public static void main(String[] args) {
+		String no = "1234";
+		int rev = 0;
+		
+		for(int i=0;i<no.length();i++) {
+			
+		}
+		System.out.println(rev);
+	}
+}

@@ -1,0 +1,9 @@
+package com.bithub;
+
+public class IncremntNo {
+	public static void main(String[] args) {
+		int no = 1234;
+		
+		
+	}
+}

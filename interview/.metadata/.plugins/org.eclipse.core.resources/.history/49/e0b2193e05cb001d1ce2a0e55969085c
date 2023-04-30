@@ -1,0 +1,9 @@
+package com.programs;
+
+public class Tempd {
+	public static void main(String[] args) {
+		String s1 = "prajwal";
+		String s1 = "prajwal";
+		
+	}
+}

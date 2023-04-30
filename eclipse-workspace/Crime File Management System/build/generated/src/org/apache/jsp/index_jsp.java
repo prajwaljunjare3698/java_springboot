@@ -1,0 +1,274 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html xmlns=\"http://www.w3.org/1999/xhtml\">\n");
+      out.write("<head>\n");
+      out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n");
+      out.write("<title>TMPH00043</title>\n");
+      out.write("<link href=\"css/styles.css\" rel=\"stylesheet\" type=\"text/css\" />\n");
+      out.write("</head>\n");
+      out.write("<body>\n");
+      out.write("<div class=\"menu-wrapper\">\n");
+      out.write("  <div class=\"menu\">\n");
+      out.write("    <ul>\n");
+      out.write("      <li><a href=\"index.html\" class=\"active\">home</a></li>\n");
+      out.write("      <li><a href=\"about.html\">about</a></li>\n");
+      out.write("      <li><a href=\"services.html\">services</a></li>\n");
+      out.write("      <li><a href=\"works.html\">works</a></li>\n");
+      out.write("      <li><a href=\"contact.html\">contact</a></li>\n");
+      out.write("    </ul>\n");
+      out.write("  </div>\n");
+      out.write("  <div class=\"call\">\n");
+      out.write("<!--    <h1>Call us :<span> ( 000 ) 8888 888888</span></h1>-->\n");
+      out.write("  </div>\n");
+      out.write("</div>\n");
+      out.write("<!--- menu-wrapper div end -->\n");
+      out.write("<div class=\"clearing\"></div>\n");
+      out.write("<div class=\"border-bottom\"></div>\n");
+      out.write("<div class=\"logo-wrapper\">\n");
+      out.write("  <div class=\"leftshadow\"><img src=\"images/logo-wrap-left.jpg\" /></div>\n");
+      out.write("  <div class=\"logo\">\n");
+      out.write("    <h1>sitename</h1>\n");
+      out.write("  </div>\n");
+      out.write("  <div class=\"rightshadow\"><img src=\"images/logo-wrap-right.jpg\" /></div>\n");
+      out.write("</div>\n");
+      out.write("<div class=\"clearing\"></div>\n");
+      out.write("<div class=\"banner-wrapper\">\n");
+      out.write("  <div class=\"bannerlef\"><img src=\"images/banner-wrap-left.jpg\" /></div>\n");
+      out.write("  <div class=\"banner-container\">\n");
+      out.write("    <div class=\"banner\">\n");
+      out.write("      <div class=\"banner-content\">\n");
+      out.write("        <h1>Maece curs</h1>\n");
+      out.write("        <h2>Sed non tortor nisi sit amet tristique</h2>\n");
+      out.write("        <a href=\"#\">Gravida</a> </div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <div class=\"bannerright\"><img src=\"images/banner-wrap-right.jpg\"/></div>\n");
+      out.write("</div>\n");
+      out.write("<!--- banner wrapper div end -->\n");
+      out.write("<div class=\"clearing\"></div>\n");
+      out.write("<div class=\"container\">\n");
+      out.write("  <div class=\"page-wrapper\">\n");
+      out.write("    <div class=\"primary-content\">\n");
+      out.write("      <div class=\"panel\">\n");
+      out.write("        <div class=\"title\">\n");
+      out.write("          <h1>Neque porro quisquam</h1>\n");
+      out.write("          <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem </h2>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"content\">\n");
+      out.write("          <p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veri\n");
+      out.write("            tatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores </p>\n");
+      out.write("          <div class=\"button-link\"><a href=\"#\">more</a></div>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("    <div class=\"sidebar\">\n");
+      out.write("      <div class=\"panel\">\n");
+      out.write("        <div class=\"img\"><img src=\"images/img-2.jpg\"/></div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <div class=\"panel-wrapper\">\n");
+      out.write("    <div class=\"panel marRight30\">\n");
+      out.write("      <div class=\"title\">\n");
+      out.write("        <h1>Atvero eos et accusa</h1>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"imgbg\">\n");
+      out.write("        <div class=\"img\"><img src=\"images/img-3.jpg\"/></div>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"content\">\n");
+      out.write("        <h2>Unde omnis iste natus error sit volup\n");
+      out.write("          tatem dolres voluuptatem quila aspern\n");
+      out.write("          fagit vitae expilca </h2>\n");
+      out.write("        <p>Nam libero tempore, cum soluta nobis impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est Ut in magna tellus, at vestibulum augue. </p>\n");
+      out.write("        <p>Nunc tempor mattis urna, eget vulputate erat tincidunt sed. Etiam justo ante.</p>\n");
+      out.write("        <div class=\"button-link\"><a href=\"#\">more</a></div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("    <div class=\"panel marRight30\">\n");
+      out.write("      <div class=\"title\">\n");
+      out.write("        <h1>Ipsalio invertore</h1>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"mid-panel\">\n");
+      out.write("        <div class=\"left marRight30\">\n");
+      out.write("          <div class=\"imgbg\">\n");
+      out.write("            <div class=\"img\"><img src=\"images/img-4.jpg\"/></div>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"right\"> <a href=\"#\">Unde omnis iste</a>\n");
+      out.write("          <p class=\"padTop10\">Tempor mattis urna, eget vulputate erat tincidunt sedtiam justo ante neredmet purne fazayaaan.</p>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"mid-panel padTop30\">\n");
+      out.write("        <div class=\"left marRight30\">\n");
+      out.write("          <div class=\"imgbg\">\n");
+      out.write("            <div class=\"img\"><img src=\"images/img-5.jpg\"/></div>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"right\"> <a href=\"#\">Unde omnis iste</a>\n");
+      out.write("          <p class=\"padTop10\">Tempor mattis urna, eget vulputate erat tincidunt sedtiam justo ante neredmet purne fazayaaan.</p>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"mid-panel padTop30 padBottom28 borderNone\">\n");
+      out.write("        <div class=\"left marRight30\">\n");
+      out.write("          <div class=\"imgbg\">\n");
+      out.write("            <div class=\"img\"><img src=\"images/img-6.jpg\"/></div>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"right\"> <a href=\"#\">Unde omnis iste</a>\n");
+      out.write("          <p class=\"padTop10\">Tempor mattis urna, eget vulputate erat tincidunt sedtiam justo ante neredmet purne fazayaaan.</p>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"content\">\n");
+      out.write("        <div class=\"button-link\"><a href=\"#\">more</a></div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("    <div class=\"panel\">\n");
+      out.write("      <div class=\"title\">\n");
+      out.write("        <h1>Atvero eos et accusa</h1>\n");
+      out.write("        <h2>Unde omnis iste natus error sit volup\n");
+      out.write("          tatem dolres voluuptatem quila aspern\n");
+      out.write("          fagit vitae expilca</h2>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"content\">\n");
+      out.write("        <p>Nam libero tempore, cum soluta nobis impedit quo minus id quod maxime placeat facere.</p>\n");
+      out.write("        <div class=\"right-panel\">\n");
+      out.write("          <ul>\n");
+      out.write("            <li><a href=\"#\">Maecenas a purus quis nisl interdum tincidun</a></li>\n");
+      out.write("            <li><a href=\"#\">Cras faucibus leo sit amet quam malesuada</a></li>\n");
+      out.write("            <li><a href=\"#\">Nullam eleifend erat faucibus ante gravi</a></li>\n");
+      out.write("            <li><a href=\"#\">Morbi sollicitudin orci vitae sapien varius no</a></li>\n");
+      out.write("            <li><a href=\"#\">Aenean egestas quam nec orci commodo</a></li>\n");
+      out.write("            <li><a href=\"#\">Duis quis nisi in ante scelerisque ullamcorper</a></li>\n");
+      out.write("            <li class=\"borderNone\"><a href=\"#\">Ut a quam in lectus lacinia luctus ut non or</a></li>\n");
+      out.write("          </ul>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"button-link\"><a href=\"#\">more</a></div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <!--- panel wrapper div end -->\n");
+      out.write("</div>\n");
+      out.write("<!--- container div end -->\n");
+      out.write("<div class=\"clearing\"></div>\n");
+      out.write("<div class=\"panel-wrapper\">\n");
+      out.write("  <div class=\"panel marRight30\">\n");
+      out.write("    <div class=\"title\">\n");
+      out.write("      <h1>suntin culpa qui</h1>\n");
+      out.write("    </div>\n");
+      out.write("    <div class=\"contact\">\n");
+      out.write("      <input type=\"text\" class=\"contact-input\" name=\"name\" id=\"name\" value=\"Name\"/>\n");
+      out.write("      <input type=\"text\" class=\"contact-input\" name=\"name\" id=\"name\" value=\"Email\"/>\n");
+      out.write("      <input type=\"text\" class=\"contact-comments\" name=\"name\" id=\"name\" value=\"Comments\"/>\n");
+      out.write("      <div class=\"button-link\"><a href=\"#\">submit</a></div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <div class=\"panel marRight30\">\n");
+      out.write("    <div class=\"title\">\n");
+      out.write("      <h1>Ipsum quia dolor</h1>\n");
+      out.write("      <h2>Cum soluta nobis impedit quo minus id \n");
+      out.write("        od maxime placeat facere possimus omnis voluptas assumenda est Ut in magna te\n");
+      out.write("        at vestibulum augue. </h2>\n");
+      out.write("    </div>\n");
+      out.write("    <div class=\"midcontent\">\n");
+      out.write("      <div class=\"midcontentlink marRight40\">\n");
+      out.write("        <ul>\n");
+      out.write("          <li><a href=\"#\">Nullam molestie turp</a></li>\n");
+      out.write("          <li><a href=\"#\">Tempor incididunt</a></li>\n");
+      out.write("          <li><a href=\"#\">Nullam molestie tur</a></li>\n");
+      out.write("          <li class=\"borderNone\"><a href=\"#\">Ut enim ad minim</a></li>\n");
+      out.write("        </ul>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"midcontentlink\">\n");
+      out.write("        <ul>\n");
+      out.write("          <li><a href=\"#\">Nullam molestie turp</a></li>\n");
+      out.write("          <li><a href=\"#\">Tempor incididunt</a></li>\n");
+      out.write("          <li><a href=\"#\">Nullam molestie tur</a></li>\n");
+      out.write("          <li class=\"borderNone\"><a href=\"#\">Ut enim ad minim</a></li>\n");
+      out.write("        </ul>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <div class=\"panel\">\n");
+      out.write("    <div class=\"title\">\n");
+      out.write("      <h1>Erat magna suimp</h1>\n");
+      out.write("      <h2>Follow us on</h2>\n");
+      out.write("    </div>\n");
+      out.write("    <div class=\"social-media\">\n");
+      out.write("      <ul>\n");
+      out.write("        <li><a href=\"#\"><img src=\"images/icon-ol.jpg\"/></a></li>\n");
+      out.write("        <li><a href=\"#\"><img src=\"images/icon-fb.jpg\"/></a></li>\n");
+      out.write("        <li><a href=\"#\"><img src=\"images/icon-twitter.jpg\"/></a></li>\n");
+      out.write("        <li><a href=\"#\"><img src=\"images/icon-linkdin.jpg\"/></a></li>\n");
+      out.write("        <li><a href=\"#\"><img src=\"images/icon-fb.jpg\"/></a></li>\n");
+      out.write("      </ul>\n");
+      out.write("    </div>\n");
+      out.write("    <h2 class=\"padBottom10\">Send us email</h2>\n");
+      out.write("    <div class=\"infolinks marginBottom\"> <a href=\"#\">info@companyname.com</a> <a href=\"#\">sales@companyname.com</a> <a href=\"#\">contact@companyname.com</a> <a href=\"#\">manager@companyname</a> </div>\n");
+      out.write("  </div>\n");
+      out.write("</div>\n");
+      out.write("<div class=\"footer-wrapper\">\n");
+      out.write("  <div class=\"footer\">\n");
+      out.write("    <p> © 2012 All Rights Reserved.<a href=\"http://www.alltemplates.com\"> < www.alltemplateneeds.com ></a> Images From: <a href=\"http://photorack.net\">www.photorack.net</a> </p>\n");
+      out.write("  </div>\n");
+      out.write("</div>\n");
+      out.write("</body>\n");
+      out.write("</html>\n");
+      out.write("\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

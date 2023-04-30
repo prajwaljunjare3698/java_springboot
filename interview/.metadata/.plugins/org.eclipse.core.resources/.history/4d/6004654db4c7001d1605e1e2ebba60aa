@@ -1,0 +1,9 @@
+package com.programs;
+class BookTicket{
+	private int no;
+	private String destination;
+	private 
+}
+public class TrainSystem {
+
+}

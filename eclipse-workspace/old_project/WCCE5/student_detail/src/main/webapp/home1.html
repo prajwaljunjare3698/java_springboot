@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#box{
+		height: 400px;
+		width: 400px;
+		border: 1px solid;
+		border-radius: 20px;
+		box-shadow: 9px 13px 15px -2px black;
+		margin: auto;
+		margin-top: 80px;
+		background-color: greenyellow;
+		padding: 10px;
+		font-size: 20px;
+	}
+	h1{
+		margin-left: 70px;
+		color:rgb(254,100,10);
+	}
+	.ap{
+		margin-left: 40px;
+	}
+	#age{
+		margin-left: 56px;
+	}
+	#gmail{
+		margin-left: 11px;
+	}
+	#gender{
+		padding-right: 60px; 
+	}
+	select{
+		height: 22px;
+		width: 100px;	
+		margin-left: 16px;
+	}
+	#male{
+		margin-left: 17px;
+	}
+	#place{
+		margin-left: 45px;
+	}
+	#phone{
+		margin-left: 49px;
+	}
+	marquee{
+		font-size: 26px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		color: black;
+	}
+	
+</style>
+</head>
+<body>
+	<div id="box">
+		<marquee>Welcome in Qspider, your dream job is here</marquee>
+		<h1>Fill the Form</h1>
+		<form action="reg_detail" method="post">
+		
+			<label for="name">Enter Name:</label>
+			<input class="ap" type="text" name="name" id="name" required placeholder="enter full name"> <br>
+			
+			<label for="age">Enter Age:</label>
+			<input class="ap" type="number" name="age" id="age"> <br>
+			
+			<label for="phone">Mobile No:</label>
+			<input type="number" name="phone" id="phone"> <br>
+			
+			<label for="email">Enter Email:</label>
+			<input class="ap" type="email" name="email" id="email"> <br>
+			
+			<label id="gender" for="gender">Gender:</label>
+			
+			<input  type="radio" name="gender" id="male" value="male">
+			<label for="male">Male</label>
+			
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female">Female</label> <br>
+			
+			<label  for="place">Enter Place:</label>
+			<input class="ap" type="text" name="place" id="place"> <br> 	
+			
+			<label for="course">Choose Course:</label>
+			<select name="course">
+				<option selected disabled>Select</option>
+				<option>Java</option>
+				<option>Python</option>
+				<option>WetTech</option>
+				<option>Selenium</option>
+				  
+			</select>
+			<br> <br>
+			<input type="checkbox" name="check" id="check" value="check">
+			
+			<label for="check" id="check">accept terms and conditions</label>
+			 <br>
+			
+			<input type="submit" name="submit">
+			<input type="reset" name="reset">
+			
+		</form>
+	</div>
+</body>
+</html>
